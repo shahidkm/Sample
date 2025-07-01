@@ -1,0 +1,44 @@
+<app-navbar></app-navbar>
+
+
+<div class="max-w-[100vw] bg-[#1a1110]">
+<div class="max-w-[100vw] flex justify-center mt-12">
+    <div class="w-[95vw] grid grid-cols-4 gap-y-6 gap-x-4">
+        <div *ngFor="let movie of movies">
+            <div *ngIf="movie"
+                class="w-[300px] h-[200px] bg-black rounded-lg shadow-lg flex flex-col items-center justify-start gap-y-2 text-white text-[13px]">
+                <div>
+                    <img src="https://tse4.mm.bing.net/th/id/OIP.CK8I2_KT3yS-wt2utgCI1QHaEK?pid=Api&P=0&h=180"
+                        alt="Movie poster" class="w-full h-full object-fill rounded-lg" />
+                </div>
+                <div class="flex justify-center gap-x-6">
+                    <h1>{{ movie.name }}</h1>
+                    <p>{{ movie.id }}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<div class="w-[100vw] h-60 flex justify-center items-center bg-black">
+    <div class="flex flex-col items-center text-white">
+    <h1 class=" text-white">
+     There’s even more to watch.
+
+    </h1>
+    <h2 class="text-white">
+        Netflix has an extensive library of feature films, 
+    </h2>
+    <h2>
+documentaries, TV shows, anime, award-winning Netflix originals and more. Watch as much as you want, anytime you want.
+    </h2>
+    <div class="mt-6">
+ <button class="w-32 h-10 bg-red-800 rounde-sm shadow-white shadow-sm">JOIN NOW</button>
+    </div>
+   
+    </div>
+    
+</div>
+<app-footer></app-footer>

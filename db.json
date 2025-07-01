@@ -1,0 +1,92 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "name": "ARM"
+    },
+    {
+      "id": "2",
+      "name": "Inception"
+    },
+    {
+      "id": "3",
+      "name": "Interstellar"
+    },
+    {
+      "id": "4",
+      "name": "The Dark Knight"
+    },
+    {
+      "id": "5",
+      "name": "Avengers: Endgame"
+    },
+    {
+      "id": "6",
+      "name": "Dune"
+    },
+    {
+      "id": "7",
+      "name": "The Matrix"
+    },
+    {
+      "id": "8",
+      "name": "Spider-Man: No Way Home"
+    }
+  ],
+  "users": [
+    {
+      "id": "8bfa",
+      "name": "wqeqwe",
+      "email": "weqweq",
+      "password": "wewqewqe"
+    },
+    {
+      "id": "befc",
+      "name": "nifras",
+      "email": "kmshahid432@gmail.com",
+      "password": "sdasd"
+    },
+    {
+      "id": "fa0f",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "45f2",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "b6da",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "927e",
+      "name": "Muhammed Shahid km",
+      "email": "kmshahid432@gmail.com",
+      "password": "3232312"
+    },
+    {
+      "id": "3f46",
+      "name": "Muhammed Shahid km",
+      "email": "kmshaheid432@gmail.com",
+      "password": "wsqwqs"
+    },
+    {
+      "id": "b807",
+      "name": "Muhammed Shahid km",
+      "email": "kmshahwqwqid432@gmail.com",
+      "password": "1w12w21w12"
+    },
+    {
+      "id": "f1a7",
+      "name": "eeeeeeeeeeeeee",
+      "email": "kmshahwqwqid432@gmail.com",
+      "password": "1w12w21w12"
+    }
+  ]
+}
