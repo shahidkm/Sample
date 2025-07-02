@@ -3,7 +3,8 @@
 
 <div class="max-w-[100vw] bg-[#1a1110]">
 <div class="max-w-[100vw] flex justify-center mt-12">
-    <div class="w-[95vw] grid grid-cols-4 gap-y-6 gap-x-4">
+ <div class="w-[95vw] grid grid-cols-1 gap-y-6 gap-x-4 sm:grid-cols-4">
+
         <div *ngFor="let movie of movies">
             <div *ngIf="movie"
                 class="w-[300px] h-[200px] bg-black rounded-lg shadow-lg flex flex-col items-center justify-start gap-y-2 text-white text-[13px]">
